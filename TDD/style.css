@@ -1,0 +1,66 @@
+
+.nav nav{
+    background-color: rgb(44, 44, 44);
+    display: flexbox;
+    text-align: right;
+    margin-top: -8px;
+    margin-left: -10px;
+    width: 1351px;
+    box-sizing: border-box;
+    position:fixed;
+    
+}
+.nav button{
+    color: white;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    display:flexbox;
+    height: 50px;
+    padding: 10px;
+}
+.nav button:hover{
+    background-color: rgb(15, 30, 63);
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.nav #click_nav{
+    border-bottom: rgb(40, 136, 56) 4px solid;
+   background: #000;
+}
+.img1{
+
+    margin-top: 50px;
+    border-radius: 16px;
+    width: 100%;
+    
+}
+
+@media screen and (max-width :447px) {
+    .nav{
+        justify-items: left;
+        
+       
+    }
+    .nav button{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width :860px) {
+    .pjs{
+        display: list-item;
+        justify-items: center;
+    }
+    .nav{
+        justify-items: left;
+        display: list-item;
+    }
+
+
+}
